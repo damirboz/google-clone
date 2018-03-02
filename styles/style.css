@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/* header and .header-right */
+header{
+  height: 30px;
+}
+
+.header-right{
+  float: right;
+  width: 300px;
+  height: 30px;
+}
+
+.header-right a{
+  color: black;
+  padding: 2px;
+  margin: 0 10px;
+  position: relative;
+  top: 7px;
+  left: 80px;
+  text-decoration: none;
+}
+
+.header-right #sign-in{
+  padding: 7px 10px;
+  background-color: #4486F9;
+  font-weight: bold;
+  color: white;
+  cursor: default;
+}
+
+#sign-in:hover{
+  box-shadow: 0 1px 3px -3px rgb(63, 63, 63);
+}
+
+/* main */
+.main{
+  height: 800px;
+  min-width: 400px;
+}
+
+.logo{
+  position: relative;
+  top: 200px;
+
+  width: 400px;
+  height: 92px;
+
+  margin: 0 auto;
+}
+
+.logo img{
+  display: block;
+
+  margin: 0 auto;
+  width: 272px;
+}
+
+/*form in main */
+
+#field{
+  display: block;
+  position: relative;
+  top: 200px;
+  width: 487px;
+  height: 42px;
+  margin: 2px auto;
+  border-radius: 3px;
+}
+
+/*buttons in main*/
+#search-submit{
+  background-color: lightcyan;
+
+  position: relative;
+  top: 200px;
+  width: 487px;
+  height: 76px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search-buttons{
+  background-color: #F4F4F4;
+
+  position: relative;
+  top: 25px;
+  padding: 8px 10px;
+  margin: 0 3px;
+}
+
+#language{
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+#language a{
+  text-decoration: none;
+}
+
+#language a:hover{
+  text-decoration: underline;
+}
+
+/*footer */
+footer{
+  background-color: aqua;
+
+  height: 40px;
+}
+
+.footer-right{
+  float: right;
+  width: 300px;
+  height: 30px;
+}
+
+.footer-left{
+  width: 300px;
+  height: 30px;
+}
+
+.footer-left a{
+  background-color: yellow;
+
+  padding: 2px;
+  margin: 0 10px;
+
+  position: relative;
+  top: 10px;
+
+
+  text-decoration: none;
+}
+
+.footer-right a{
+  background-color: yellow;
+
+  padding: 2px;
+  margin: 0 10px;
+
+  position: relative;
+  top: 10px;
+  left: 70px;
+
+  text-decoration: none;
+}
