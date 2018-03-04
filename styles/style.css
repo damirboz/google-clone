@@ -146,16 +146,24 @@ footer{
   margin: 0 10px;
   position: relative;
   top: 10px;
-  color: gray;
+  color: rgb(128, 128, 128);
   text-decoration: none;
 }
 
 .footer-right a{
   padding: 2px;
   margin: 0 10px;
-  color: gray;
+  color: rgb(128, 128, 128);
   position: relative;
   top: 10px;
   left: 70px;
   text-decoration: none;
+}
+
+.footer-right a:hover{
+  text-decoration: underline;
+}
+
+.footer-left a:hover{
+  text-decoration: underline;
 }
